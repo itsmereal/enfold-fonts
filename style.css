@@ -1,0 +1,90 @@
+/* General */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    background-color: #fff;
+    margin: 0 auto;
+}
+
+a {
+    color: #333;
+    text-decoration: underline;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+@font-face {
+    font-family: 'entypo-fontello';
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+    src: url('fonts/entypo-fontello.eot?#iefix') format('embedded-opentype'),
+         url('fonts/entypo-fontello.woff2') format('woff2'),
+         url('fonts/entypo-fontello.woff') format('woff'),
+         url('fonts/entypo-fontello.ttf') format('truetype'),
+         url('fonts/entypo-fontello.svg#entypo-fontello') format('svg');
+}
+
+.enfold-fonts-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 20px;
+    justify-content: center;
+}
+
+.enfold-fonts-wrap .enfold-font {
+    flex-basis: 52px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.enfold-fonts-wrap .enfold-font .avia-font-char {
+    font-family: 'entypo-fontello';
+    font-size: 25px !important;
+    color: #333;
+}
+
+.enfold-fonts-wrap .enfold-font .avia-font-code {
+    font-size: 12px !important;
+}
+
+#enfold_fonts_search {
+    width: 100%;
+    line-height: 50px !important;
+    padding: 0 20px;
+    font-size: 18px !important;
+}
+
+.enfold-fonts-wrap .avia-font-description {
+    display: none;
+}
+
+.enfold-fonts-wrap .copy-value {
+    position: absolute;
+    left: -1000000px;
+}
+
+.enfold-fonts-wrap .avia-font-code {
+    cursor: copy;
+}
+
+.footer-text {
+    text-align: center;
+    padding: 20px 0;
+    font-size: 14px;
+}

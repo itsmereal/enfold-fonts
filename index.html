@@ -1,0 +1,988 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enfold Fonts</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <h1>Enfold Fonts</h1>
+            <p>
+                🎉 Checkout our new plugin! <a href="https://wolfdevs.com/plugins/enfold-tweaks-wordpress-plugin/">Enfold Tweaks</a> is a plugin that adds a lot of new features to the Enfold theme.
+                It is a must have plugin for Enfold users.
+            </p>
+        </div>
+    </header>
+    <section>
+        <div class="container">
+            <input type="text" id="enfold_fonts_search" onkeyup="filter_enfold_fonts()" placeholder="Search..">
+            <div id="enfold_fonts_wrap" class="enfold-fonts-wrap">
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e91c" class="copy-value"
+                        value="e91c"><span data-uid="font_e91c" class="avia-font-code">e91c</span><span
+                        class="avia-font-description">android</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e816" class="copy-value"
+                        value="e816"><span data-uid="font_e816" class="avia-font-code">e816</span><span
+                        class="avia-font-description">plus</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e819" class="copy-value"
+                        value="e819"><span data-uid="font_e819" class="avia-font-code">e819</span><span
+                        class="avia-font-description">minus</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e91d" class="copy-value"
+                        value="e91d"><span data-uid="font_e91d" class="avia-font-code">e91d</span><span
+                        class="avia-font-description">500</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e91e" class="copy-value"
+                        value="e91e"><span data-uid="font_e91e" class="avia-font-code">e91e</span><span
+                        class="avia-font-description">sound cloud</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e91f" class="copy-value"
+                        value="e91f"><span data-uid="font_e91f" class="avia-font-code">e91f</span><span
+                        class="avia-font-description">tree</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e920" class="copy-value"
+                        value="e920"><span data-uid="font_e920" class="avia-font-code">e920</span><span
+                        class="avia-font-description">apple</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e921" class="copy-value"
+                        value="e921"><span data-uid="font_e921" class="avia-font-code">e921</span><span
+                        class="avia-font-description">youtube</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e922" class="copy-value"
+                        value="e922"><span data-uid="font_e922" class="avia-font-code">e922</span><span
+                        class="avia-font-description">microsoft</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e923" class="copy-value"
+                        value="e923"><span data-uid="font_e923" class="avia-font-code">e923</span><span
+                        class="avia-font-description">xing</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e924" class="copy-value"
+                        value="e924"><span data-uid="font_e924" class="avia-font-code">e924</span><span
+                        class="avia-font-description">amazon</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e925" class="copy-value"
+                        value="e925"><span data-uid="font_e925" class="avia-font-code">e925</span><span
+                        class="avia-font-description">wordpress</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e81e" class="copy-value"
+                        value="e81e"><span data-uid="font_e81e" class="avia-font-code">e81e</span><span
+                        class="avia-font-description">info</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e88c" class="copy-value"
+                        value="e88c"><span data-uid="font_e88c" class="avia-font-code">e88c</span><span
+                        class="avia-font-description">left</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e88e" class="copy-value"
+                        value="e88e"><span data-uid="font_e88e" class="avia-font-code">e88e</span><span
+                        class="avia-font-description">up</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e88d" class="copy-value"
+                        value="e88d"><span data-uid="font_e88d" class="avia-font-code">e88d</span><span
+                        class="avia-font-description">right</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e88b" class="copy-value"
+                        value="e88b"><span data-uid="font_e88b" class="avia-font-code">e88b</span><span
+                        class="avia-font-description">down</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e893" class="copy-value"
+                        value="e893"><span data-uid="font_e893" class="avia-font-code">e893</span><span
+                        class="avia-font-description">left</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e892" class="copy-value"
+                        value="e892"><span data-uid="font_e892" class="avia-font-code">e892</span><span
+                        class="avia-font-description">right</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e896" class="copy-value"
+                        value="e896"><span data-uid="font_e896" class="avia-font-code">e896</span><span
+                        class="avia-font-description">both ways arrows bidirectional</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e8c2" class="copy-value"
+                        value="e8c2"><span data-uid="font_e8c2" class="avia-font-code">e8c2</span><span
+                        class="avia-font-description">infinity loop</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e818" class="copy-value"
+                        value="e818"><span data-uid="font_e818" class="avia-font-code">e818</span><span
+                        class="avia-font-description">plus</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e81b" class="copy-value"
+                        value="e81b"><span data-uid="font_e81b" class="avia-font-code">e81b</span><span
+                        class="avia-font-description">minus</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e821" class="copy-value"
+                        value="e821"><span data-uid="font_e821" class="avia-font-code">e821</span><span
+                        class="avia-font-description">home house</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e83a" class="copy-value"
+                        value="e83a"><span data-uid="font_e83a" class="avia-font-code">e83a</span><span
+                        class="avia-font-description">keyboard</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e8c3" class="copy-value"
+                        value="e8c3"><span data-uid="font_e8c3" class="avia-font-code">e8c3</span><span
+                        class="avia-font-description">undo backspace</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e899" class="copy-value"
+                        value="e899"><span data-uid="font_e899" class="avia-font-code">e899</span><span
+                        class="avia-font-description">pause</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e89d" class="copy-value"
+                        value="e89d"><span data-uid="font_e89d" class="avia-font-code">e89d</span><span
+                        class="avia-font-description">next track forward</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e89e" class="copy-value"
+                        value="e89e"><span data-uid="font_e89e" class="avia-font-code">e89e</span><span
+                        class="avia-font-description">prev previous track back backward</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e89b" class="copy-value"
+                        value="e89b"><span data-uid="font_e89b" class="avia-font-code">e89b</span><span
+                        class="avia-font-description">next track</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e89c" class="copy-value"
+                        value="e89c"><span data-uid="font_e89c" class="avia-font-code">e89c</span><span
+                        class="avia-font-description">prev previous track</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e863" class="copy-value"
+                        value="e863"><span data-uid="font_e863" class="avia-font-code">e863</span><span
+                        class="avia-font-description">sand clock hourglass</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e898" class="copy-value"
+                        value="e898"><span data-uid="font_e898" class="avia-font-code">e898</span><span
+                        class="avia-font-description">stop square block</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e886" class="copy-value"
+                        value="e886"><span data-uid="font_e886" class="avia-font-code">e886</span><span
+                        class="avia-font-description">up pointer arrow</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e897" class="copy-value"
+                        value="e897"><span data-uid="font_e897" class="avia-font-code">e897</span><span
+                        class="avia-font-description">next right pointer arrow</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e885" class="copy-value"
+                        value="e885"><span data-uid="font_e885" class="avia-font-code">e885</span><span
+                        class="avia-font-description">next right pointer arrow</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e883" class="copy-value"
+                        value="e883"><span data-uid="font_e883" class="avia-font-code">e883</span><span
+                        class="avia-font-description">down pointer arrow</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e884" class="copy-value"
+                        value="e884"><span data-uid="font_e884" class="avia-font-code">e884</span><span
+                        class="avia-font-description">left pointer arrow</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e867" class="copy-value"
+                        value="e867"><span data-uid="font_e867" class="avia-font-code">e867</span><span
+                        class="avia-font-description">brightness sun light shine</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e8b2" class="copy-value"
+                        value="e8b2"><span data-uid="font_e8b2" class="avia-font-code">e8b2</span><span
+                        class="avia-font-description">cloud</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e808" class="copy-value"
+                        value="e808"><span data-uid="font_e808" class="avia-font-code">e808</span><span
+                        class="avia-font-description">star</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e809" class="copy-value"
+                        value="e809"><span data-uid="font_e809" class="avia-font-code">e809</span><span
+                        class="avia-font-description">star</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e846" class="copy-value"
+                        value="e846"><span data-uid="font_e846" class="avia-font-code">e846</span><span
+                        class="avia-font-description">glass bin</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e811" class="copy-value"
+                        value="e811"><span data-uid="font_e811" class="avia-font-code">e811</span><span
+                        class="avia-font-description">hamburger menu</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e8b5" class="copy-value"
+                        value="e8b5"><span data-uid="font_e8b5" class="avia-font-code">e8b5</span><span
+                        class="avia-font-description">moon</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e807" class="copy-value"
+                        value="e807"><span data-uid="font_e807" class="avia-font-code">e807</span><span
+                        class="avia-font-description">heart love</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e806" class="copy-value"
+                        value="e806"><span data-uid="font_e806" class="avia-font-code">e806</span><span
+                        class="avia-font-description">heart love</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e800" class="copy-value"
+                        value="e800"><span data-uid="font_e800" class="avia-font-code">e800</span><span
+                        class="avia-font-description">music tune note</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e801" class="copy-value"
+                        value="e801"><span data-uid="font_e801" class="avia-font-code">e801</span><span
+                        class="avia-font-description">music tune note</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e810" class="copy-value"
+                        value="e810"><span data-uid="font_e810" class="avia-font-code">e810</span><span
+                        class="avia-font-description">squares four menu settings bricks blocks</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e82a" class="copy-value"
+                        value="e82a"><span data-uid="font_e82a" class="avia-font-code">e82a</span><span
+                        class="avia-font-description">flag</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e856" class="copy-value"
+                        value="e856"><span data-uid="font_e856" class="avia-font-code">e856</span><span
+                        class="avia-font-description">settings tools hammer wrench</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e855" class="copy-value"
+                        value="e855"><span data-uid="font_e855" class="avia-font-code">e855</span><span
+                        class="avia-font-description">cog gear settings</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e83e" class="copy-value"
+                        value="e83e"><span data-uid="font_e83e" class="avia-font-code">e83e</span><span
+                        class="avia-font-description">caution warning</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e8b4" class="copy-value"
+                        value="e8b4"><span data-uid="font_e8b4" class="avia-font-code">e8b4</span><span
+                        class="avia-font-description">bolt lightning</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e89a" class="copy-value"
+                        value="e89a"><span data-uid="font_e89a" class="avia-font-code">e89a</span><span
+                        class="avia-font-description">dot round point</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e8b3" class="copy-value"
+                        value="e8b3"><span data-uid="font_e8b3" class="avia-font-code">e8b3</span><span
+                        class="avia-font-description">cloud lightning</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e8c8" class="copy-value"
+                        value="e8c8"><span data-uid="font_e8c8" class="avia-font-code">e8c8</span><span
+                        class="avia-font-description">abstract</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e8b6" class="copy-value"
+                        value="e8b6"><span data-uid="font_e8b6" class="avia-font-code">e8b6</span><span
+                        class="avia-font-description">plane airplane</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e805" class="copy-value"
+                        value="e805"><span data-uid="font_e805" class="avia-font-code">e805</span><span
+                        class="avia-font-description">email mail send</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e836" class="copy-value"
+                        value="e836"><span data-uid="font_e836" class="avia-font-code">e836</span><span
+                        class="avia-font-description">pen pencil</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e837" class="copy-value"
+                        value="e837"><span data-uid="font_e837" class="avia-font-code">e837</span><span
+                        class="avia-font-description">feather pen</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e812" class="copy-value"
+                        value="e812"><span data-uid="font_e812" class="avia-font-code">e812</span><span
+                        class="avia-font-description">check right tick yes</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e813" class="copy-value"
+                        value="e813"><span data-uid="font_e813" class="avia-font-code">e813</span><span
+                        class="avia-font-description">cross wrong no</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e814" class="copy-value"
+                        value="e814"><span data-uid="font_e814" class="avia-font-code">e814</span><span
+                        class="avia-font-description">stop no wrong cross</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e815" class="copy-value"
+                        value="e815"><span data-uid="font_e815" class="avia-font-code">e815</span><span
+                        class="avia-font-description">stop no wrong cross</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e81c" class="copy-value"
+                        value="e81c"><span data-uid="font_e81c" class="avia-font-code">e81c</span><span
+                        class="avia-font-description">what question mark</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e833" class="copy-value"
+                        value="e833"><span data-uid="font_e833" class="avia-font-code">e833</span><span
+                        class="avia-font-description">quote</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e817" class="copy-value"
+                        value="e817"><span data-uid="font_e817" class="avia-font-code">e817</span><span
+                        class="avia-font-description">plus</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e81a" class="copy-value"
+                        value="e81a"><span data-uid="font_e81a" class="avia-font-code">e81a</span><span
+                        class="avia-font-description">minus</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e881" class="copy-value"
+                        value="e881"><span data-uid="font_e881" class="avia-font-code">e881</span><span
+                        class="avia-font-description">right arrow</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e844" class="copy-value"
+                        value="e844"><span data-uid="font_e844" class="avia-font-code">e844</span><span
+                        class="avia-font-description">live location marker pin arrow pointer</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e832" class="copy-value"
+                        value="e832"><span data-uid="font_e832" class="avia-font-code">e832</span><span
+                        class="avia-font-description">right arrow pointer</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e88f" class="copy-value"
+                        value="e88f"><span data-uid="font_e88f" class="avia-font-code">e88f</span><span
+                        class="avia-font-description">reload round pointer restart</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e890" class="copy-value"
+                        value="e890"><span data-uid="font_e890" class="avia-font-code">e890</span><span
+                        class="avia-font-description">reload round pointer restart</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e880" class="copy-value"
+                        value="e880"><span data-uid="font_e880" class="avia-font-code">e880</span><span
+                        class="avia-font-description">left arrow</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e882" class="copy-value"
+                        value="e882"><span data-uid="font_e882" class="avia-font-code">e882</span><span
+                        class="avia-font-description">top arrow</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e87f" class="copy-value"
+                        value="e87f"><span data-uid="font_e87f" class="avia-font-code">e87f</span><span
+                        class="avia-font-description">down arrow</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e8a6" class="copy-value"
+                        value="e8a6"><span data-uid="font_e8a6" class="avia-font-code">e8a6</span><span
+                        class="avia-font-description">menu plus</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e8a5" class="copy-value"
+                        value="e8a5"><span data-uid="font_e8a5" class="avia-font-code">e8a5</span><span
+                        class="avia-font-description">menu list</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e888" class="copy-value"
+                        value="e888"><span data-uid="font_e888" class="avia-font-code">e888</span><span
+                        class="avia-font-description">left arrow</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e889" class="copy-value"
+                        value="e889"><span data-uid="font_e889" class="avia-font-code">e889</span><span
+                        class="avia-font-description">right arrow</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e88a" class="copy-value"
+                        value="e88a"><span data-uid="font_e88a" class="avia-font-code">e88a</span><span
+                        class="avia-font-description">up arrow</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e887" class="copy-value"
+                        value="e887"><span data-uid="font_e887" class="avia-font-code">e887</span><span
+                        class="avia-font-description">down arrow</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e80c" class="copy-value"
+                        value="e80c"><span data-uid="font_e80c" class="avia-font-code">e80c</span><span
+                        class="avia-font-description">add plus person user man</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e81d" class="copy-value"
+                        value="e81d"><span data-uid="font_e81d" class="avia-font-code">e81d</span><span
+                        class="avia-font-description">question</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e81f" class="copy-value"
+                        value="e81f"><span data-uid="font_e81f" class="avia-font-code">e81f</span><span
+                        class="avia-font-description">info</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e826" class="copy-value"
+                        value="e826"><span data-uid="font_e826" class="avia-font-code">e826</span><span
+                        class="avia-font-description">seen eye view</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e827" class="copy-value"
+                        value="e827"><span data-uid="font_e827" class="avia-font-code">e827</span><span
+                        class="avia-font-description">tag</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e82f" class="copy-value"
+                        value="e82f"><span data-uid="font_e82f" class="avia-font-code">e82f</span><span
+                        class="avia-font-description">cloud upload</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e830" class="copy-value"
+                        value="e830"><span data-uid="font_e830" class="avia-font-code">e830</span><span
+                        class="avia-font-description">left arrow pointer</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e831" class="copy-value"
+                        value="e831"><span data-uid="font_e831" class="avia-font-code">e831</span><span
+                        class="avia-font-description">left arrow pointer</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e834" class="copy-value"
+                        value="e834"><span data-uid="font_e834" class="avia-font-code">e834</span><span
+                        class="avia-font-description">code wrap</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e835" class="copy-value"
+                        value="e835"><span data-uid="font_e835" class="avia-font-code">e835</span><span
+                        class="avia-font-description">external link open</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e838" class="copy-value"
+                        value="e838"><span data-uid="font_e838" class="avia-font-code">e838</span><span
+                        class="avia-font-description">printer fax</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e839" class="copy-value"
+                        value="e839"><span data-uid="font_e839" class="avia-font-code">e839</span><span
+                        class="avia-font-description">recycle cycle</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e83b" class="copy-value"
+                        value="e83b"><span data-uid="font_e83b" class="avia-font-code">e83b</span><span
+                        class="avia-font-description">comment message contact</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e83c" class="copy-value"
+                        value="e83c"><span data-uid="font_e83c" class="avia-font-code">e83c</span><span
+                        class="avia-font-description">comment message contact</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e840" class="copy-value"
+                        value="e840"><span data-uid="font_e840" class="avia-font-code">e840</span><span
+                        class="avia-font-description">vcard id profile</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e841" class="copy-value"
+                        value="e841"><span data-uid="font_e841" class="avia-font-code">e841</span><span
+                        class="avia-font-description">direction address pole</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e842" class="copy-value"
+                        value="e842"><span data-uid="font_e842" class="avia-font-code">e842</span><span
+                        class="avia-font-description">pin map direction address</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e843" class="copy-value"
+                        value="e843"><span data-uid="font_e843" class="avia-font-code">e843</span><span
+                        class="avia-font-description">map brochure listing</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e845" class="copy-value"
+                        value="e845"><span data-uid="font_e845" class="avia-font-code">e845</span><span
+                        class="avia-font-description">compass navigation</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e847" class="copy-value"
+                        value="e847"><span data-uid="font_e847" class="avia-font-code">e847</span><span
+                        class="avia-font-description">trash bin</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e848" class="copy-value"
+                        value="e848"><span data-uid="font_e848" class="avia-font-code">e848</span><span
+                        class="avia-font-description">card rectangle</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e84c" class="copy-value"
+                        value="e84c"><span data-uid="font_e84c" class="avia-font-code">e84c</span><span
+                        class="avia-font-description">file doc page</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e849" class="copy-value"
+                        value="e849"><span data-uid="font_e849" class="avia-font-code">e849</span><span
+                        class="avia-font-description">files doc</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e84a" class="copy-value"
+                        value="e84a"><span data-uid="font_e84a" class="avia-font-code">e84a</span><span
+                        class="avia-font-description">card rect</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e851" class="copy-value"
+                        value="e851"><span data-uid="font_e851" class="avia-font-code">e851</span><span
+                        class="avia-font-description">files drawer</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e853" class="copy-value"
+                        value="e853"><span data-uid="font_e853" class="avia-font-code">e853</span><span
+                        class="avia-font-description">rss network</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e857" class="copy-value"
+                        value="e857"><span data-uid="font_e857" class="avia-font-code">e857</span><span
+                        class="avia-font-description">share network connect</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e859" class="copy-value"
+                        value="e859"><span data-uid="font_e859" class="avia-font-code">e859</span><span
+                        class="avia-font-description">shop cart checkout</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e858" class="copy-value"
+                        value="e858"><span data-uid="font_e858" class="avia-font-code">e858</span><span
+                        class="avia-font-description">unity connection</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e85c" class="copy-value"
+                        value="e85c"><span data-uid="font_e85c" class="avia-font-code">e85c</span><span
+                        class="avia-font-description">login enter connect</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e85d" class="copy-value"
+                        value="e85d"><span data-uid="font_e85d" class="avia-font-code">e85d</span><span
+                        class="avia-font-description">logout exit</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e861" class="copy-value"
+                        value="e861"><span data-uid="font_e861" class="avia-font-code">e861</span><span
+                        class="avia-font-description">graph triangle</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e869" class="copy-value"
+                        value="e869"><span data-uid="font_e869" class="avia-font-code">e869</span><span
+                        class="avia-font-description">resize expand</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e86a" class="copy-value"
+                        value="e86a"><span data-uid="font_e86a" class="avia-font-code">e86a</span><span
+                        class="avia-font-description">resize shrink</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e86b" class="copy-value"
+                        value="e86b"><span data-uid="font_e86b" class="avia-font-code">e86b</span><span
+                        class="avia-font-description">duplicate copy</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e86c" class="copy-value"
+                        value="e86c"><span data-uid="font_e86c" class="avia-font-code">e86c</span><span
+                        class="avia-font-description">upload</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e86d" class="copy-value"
+                        value="e86d"><span data-uid="font_e86d" class="avia-font-code">e86d</span><span
+                        class="avia-font-description">browser window</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e86e" class="copy-value"
+                        value="e86e"><span data-uid="font_e86e" class="avia-font-code">e86e</span><span
+                        class="avia-font-description">dropdown select</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e8c4" class="copy-value"
+                        value="e8c4"><span data-uid="font_e8c4" class="avia-font-code">e8c4</span><span
+                        class="avia-font-description">pie chart finance</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e8ca" class="copy-value"
+                        value="e8ca"><span data-uid="font_e8ca" class="avia-font-code">e8ca</span><span
+                        class="avia-font-description">language</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e8ce" class="copy-value"
+                        value="e8ce"><span data-uid="font_e8ce" class="avia-font-code">e8ce</span><span
+                        class="avia-font-description">wave</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e8d3" class="copy-value"
+                        value="e8d3"><span data-uid="font_e8d3" class="avia-font-code">e8d3</span><span
+                        class="avia-font-description">database stack coins</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e8d4" class="copy-value"
+                        value="e8d4"><span data-uid="font_e8d4" class="avia-font-code">e8d4</span><span
+                        class="avia-font-description">book drive</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e8d5" class="copy-value"
+                        value="e8d5"><span data-uid="font_e8d5" class="avia-font-code">e8d5</span><span
+                        class="avia-font-description">bucket</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e8d6" class="copy-value"
+                        value="e8d6"><span data-uid="font_e8d6" class="avia-font-code">e8d6</span><span
+                        class="avia-font-description">temp thermometer</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e86f" class="copy-value"
+                        value="e86f"><span data-uid="font_e86f" class="avia-font-code">e86f</span><span
+                        class="avia-font-description">arrow down</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e870" class="copy-value"
+                        value="e870"><span data-uid="font_e870" class="avia-font-code">e870</span><span
+                        class="avia-font-description">arrow left</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e871" class="copy-value"
+                        value="e871"><span data-uid="font_e871" class="avia-font-code">e871</span><span
+                        class="avia-font-description">arrow right</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e872" class="copy-value"
+                        value="e872"><span data-uid="font_e872" class="avia-font-code">e872</span><span
+                        class="avia-font-description">arrow top</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e873" class="copy-value"
+                        value="e873"><span data-uid="font_e873" class="avia-font-code">e873</span><span
+                        class="avia-font-description">arrow down</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e874" class="copy-value"
+                        value="e874"><span data-uid="font_e874" class="avia-font-code">e874</span><span
+                        class="avia-font-description">arrow left</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e875" class="copy-value"
+                        value="e875"><span data-uid="font_e875" class="avia-font-code">e875</span><span
+                        class="avia-font-description">arrow right</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e876" class="copy-value"
+                        value="e876"><span data-uid="font_e876" class="avia-font-code">e876</span><span
+                        class="avia-font-description">arrow top</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e877" class="copy-value"
+                        value="e877"><span data-uid="font_e877" class="avia-font-code">e877</span><span
+                        class="avia-font-description">arrow down</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e878" class="copy-value"
+                        value="e878"><span data-uid="font_e878" class="avia-font-code">e878</span><span
+                        class="avia-font-description">arrow left</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e879" class="copy-value"
+                        value="e879"><span data-uid="font_e879" class="avia-font-code">e879</span><span
+                        class="avia-font-description">arrow right</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e87a" class="copy-value"
+                        value="e87a"><span data-uid="font_e87a" class="avia-font-code">e87a</span><span
+                        class="avia-font-description">arrow top</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e87b" class="copy-value"
+                        value="e87b"><span data-uid="font_e87b" class="avia-font-code">e87b</span><span
+                        class="avia-font-description">arrow down</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e87c" class="copy-value"
+                        value="e87c"><span data-uid="font_e87c" class="avia-font-code">e87c</span><span
+                        class="avia-font-description">arrow left</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e87d" class="copy-value"
+                        value="e87d"><span data-uid="font_e87d" class="avia-font-code">e87d</span><span
+                        class="avia-font-description">arrow right</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e87e" class="copy-value"
+                        value="e87e"><span data-uid="font_e87e" class="avia-font-code">e87e</span><span
+                        class="avia-font-description">arrow top</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e89f" class="copy-value"
+                        value="e89f"><span data-uid="font_e89f" class="avia-font-code">e89f</span><span
+                        class="avia-font-description">rect loading</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e8a0" class="copy-value"
+                        value="e8a0"><span data-uid="font_e8a0" class="avia-font-code">e8a0</span><span
+                        class="avia-font-description">rect battery loading</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e8a1" class="copy-value"
+                        value="e8a1"><span data-uid="font_e8a1" class="avia-font-code">e8a1</span><span
+                        class="avia-font-description">rect loading battery</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e8a2" class="copy-value"
+                        value="e8a2"><span data-uid="font_e8a2" class="avia-font-code">e8a2</span><span
+                        class="avia-font-description">rect loading battery</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e8aa" class="copy-value"
+                        value="e8aa"><span data-uid="font_e8aa" class="avia-font-code">e8aa</span><span
+                        class="avia-font-description">history clock fast</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e8ad" class="copy-value"
+                        value="e8ad"><span data-uid="font_e8ad" class="avia-font-code">e8ad</span><span
+                        class="avia-font-description">globe network online</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e8af" class="copy-value"
+                        value="e8af"><span data-uid="font_e8af" class="avia-font-code">e8af</span><span
+                        class="avia-font-description">tray cabinet</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e8b0" class="copy-value"
+                        value="e8b0"><span data-uid="font_e8b0" class="avia-font-code">e8b0</span><span
+                        class="avia-font-description">download book</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e8b9" class="copy-value"
+                        value="e8b9"><span data-uid="font_e8b9" class="avia-font-code">e8b9</span><span
+                        class="avia-font-description">support</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e8ba" class="copy-value"
+                        value="e8ba"><span data-uid="font_e8ba" class="avia-font-code">e8ba</span><span
+                        class="avia-font-description">tag price</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e8bd" class="copy-value"
+                        value="e8bd"><span data-uid="font_e8bd" class="avia-font-code">e8bd</span><span
+                        class="avia-font-description">dot</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e8be" class="copy-value"
+                        value="e8be"><span data-uid="font_e8be" class="avia-font-code">e8be</span><span
+                        class="avia-font-description">dot loading</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e8bf" class="copy-value"
+                        value="e8bf"><span data-uid="font_e8bf" class="avia-font-code">e8bf</span><span
+                        class="avia-font-description">dot loading</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e8bc" class="copy-value"
+                        value="e8bc"><span data-uid="font_e8bc" class="avia-font-code">e8bc</span><span
+                        class="avia-font-description">briefcase support career job</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e8d8" class="copy-value"
+                        value="e8d8"><span data-uid="font_e8d8" class="avia-font-code">e8d8</span><span
+                        class="avia-font-description">connect flow branch</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e8d9" class="copy-value"
+                        value="e8d9"><span data-uid="font_e8d9" class="avia-font-code">e8d9</span><span
+                        class="avia-font-description">connect flow branch</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e8da" class="copy-value"
+                        value="e8da"><span data-uid="font_e8da" class="avia-font-code">e8da</span><span
+                        class="avia-font-description">connect flow branch</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e8db" class="copy-value"
+                        value="e8db"><span data-uid="font_e8db" class="avia-font-code">e8db</span><span
+                        class="avia-font-description">connect flow</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e8dc" class="copy-value"
+                        value="e8dc"><span data-uid="font_e8dc" class="avia-font-code">e8dc</span><span
+                        class="avia-font-description">connect flow</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e8c0" class="copy-value"
+                        value="e8c0"><span data-uid="font_e8c0" class="avia-font-code">e8c0</span><span
+                        class="avia-font-description">brush</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e8b7" class="copy-value"
+                        value="e8b7"><span data-uid="font_e8b7" class="avia-font-code">e8b7</span><span
+                        class="avia-font-description">paperplane connect send</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e8c1" class="copy-value"
+                        value="e8c1"><span data-uid="font_e8c1" class="avia-font-code">e8c1</span><span
+                        class="avia-font-description">magnate</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e8de" class="copy-value"
+                        value="e8de"><span data-uid="font_e8de" class="avia-font-code">e8de</span><span
+                        class="avia-font-description">meter fast dashboard</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e8df" class="copy-value"
+                        value="e8df"><span data-uid="font_e8df" class="avia-font-code">e8df</span><span
+                        class="avia-font-description">vlc cone</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e8e0" class="copy-value"
+                        value="e8e0"><span data-uid="font_e8e0" class="avia-font-code">e8e0</span><span
+                        class="avia-font-description">cc creative</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e8e1" class="copy-value"
+                        value="e8e1"><span data-uid="font_e8e1" class="avia-font-code">e8e1</span><span
+                        class="avia-font-description">sign human</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e8e2" class="copy-value"
+                        value="e8e2"><span data-uid="font_e8e2" class="avia-font-code">e8e2</span><span
+                        class="avia-font-description">sign forbidden dollar</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e8e3" class="copy-value"
+                        value="e8e3"><span data-uid="font_e8e3" class="avia-font-code">e8e3</span><span
+                        class="avia-font-description">sign forbidden euro</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e8e4" class="copy-value"
+                        value="e8e4"><span data-uid="font_e8e4" class="avia-font-code">e8e4</span><span
+                        class="avia-font-description">sign forbidden yen</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e8e5" class="copy-value"
+                        value="e8e5"><span data-uid="font_e8e5" class="avia-font-code">e8e5</span><span
+                        class="avia-font-description">sign</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e8e6" class="copy-value"
+                        value="e8e6"><span data-uid="font_e8e6" class="avia-font-code">e8e6</span><span
+                        class="avia-font-description">sign equal</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e8e7" class="copy-value"
+                        value="e8e7"><span data-uid="font_e8e7" class="avia-font-code">e8e7</span><span
+                        class="avia-font-description">sign forbidden euro</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e8e8" class="copy-value"
+                        value="e8e8"><span data-uid="font_e8e8" class="avia-font-code">e8e8</span><span
+                        class="avia-font-description">sign zero</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e8e9" class="copy-value"
+                        value="e8e9"><span data-uid="font_e8e9" class="avia-font-code">e8e9</span><span
+                        class="avia-font-description">copy</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e8ea" class="copy-value"
+                        value="e8ea"><span data-uid="font_e8ea" class="avia-font-code">e8ea</span><span
+                        class="avia-font-description">remix</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e8eb" class="copy-value"
+                        value="e8eb"><span data-uid="font_e8eb" class="avia-font-code">e8eb</span><span
+                        class="avia-font-description">git</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e8ec" class="copy-value"
+                        value="e8ec"><span data-uid="font_e8ec" class="avia-font-code">e8ec</span><span
+                        class="avia-font-description">git</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e8ed" class="copy-value"
+                        value="e8ed"><span data-uid="font_e8ed" class="avia-font-code">e8ed</span><span
+                        class="avia-font-description">dot</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e8ee" class="copy-value"
+                        value="e8ee"><span data-uid="font_e8ee" class="avia-font-code">e8ee</span><span
+                        class="avia-font-description">dot button</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e8ef" class="copy-value"
+                        value="e8ef"><span data-uid="font_e8ef" class="avia-font-code">e8ef</span><span
+                        class="avia-font-description">vimeo</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e8f0" class="copy-value"
+                        value="e8f0"><span data-uid="font_e8f0" class="avia-font-code">e8f0</span><span
+                        class="avia-font-description">vimeo</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e8f1" class="copy-value"
+                        value="e8f1"><span data-uid="font_e8f1" class="avia-font-code">e8f1</span><span
+                        class="avia-font-description">twitter</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e8f2" class="copy-value"
+                        value="e8f2"><span data-uid="font_e8f2" class="avia-font-code">e8f2</span><span
+                        class="avia-font-description">twitter</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e8f3" class="copy-value"
+                        value="e8f3"><span data-uid="font_e8f3" class="avia-font-code">e8f3</span><span
+                        class="avia-font-description">facebook fb</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e8f4" class="copy-value"
+                        value="e8f4"><span data-uid="font_e8f4" class="avia-font-code">e8f4</span><span
+                        class="avia-font-description">facebook fb</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e8f5" class="copy-value"
+                        value="e8f5"><span data-uid="font_e8f5" class="avia-font-code">e8f5</span><span
+                        class="avia-font-description">facebook fb</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e8f6" class="copy-value"
+                        value="e8f6"><span data-uid="font_e8f6" class="avia-font-code">e8f6</span><span
+                        class="avia-font-description">google plus</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e8f7" class="copy-value"
+                        value="e8f7"><span data-uid="font_e8f7" class="avia-font-code">e8f7</span><span
+                        class="avia-font-description">google plus</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e8f8" class="copy-value"
+                        value="e8f8"><span data-uid="font_e8f8" class="avia-font-code">e8f8</span><span
+                        class="avia-font-description">pinterest</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e8f9" class="copy-value"
+                        value="e8f9"><span data-uid="font_e8f9" class="avia-font-code">e8f9</span><span
+                        class="avia-font-description">pinterest</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e8fa" class="copy-value"
+                        value="e8fa"><span data-uid="font_e8fa" class="avia-font-code">e8fa</span><span
+                        class="avia-font-description">tumblr</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e8fb" class="copy-value"
+                        value="e8fb"><span data-uid="font_e8fb" class="avia-font-code">e8fb</span><span
+                        class="avia-font-description">tumblr</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e8fc" class="copy-value"
+                        value="e8fc"><span data-uid="font_e8fc" class="avia-font-code">e8fc</span><span
+                        class="avia-font-description">linkedin</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e8fd" class="copy-value"
+                        value="e8fd"><span data-uid="font_e8fd" class="avia-font-code">e8fd</span><span
+                        class="avia-font-description">linkedin</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e8fe" class="copy-value"
+                        value="e8fe"><span data-uid="font_e8fe" class="avia-font-code">e8fe</span><span
+                        class="avia-font-description">dribbble</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e8ff" class="copy-value"
+                        value="e8ff"><span data-uid="font_e8ff" class="avia-font-code">e8ff</span><span
+                        class="avia-font-description">dribbble</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e900" class="copy-value"
+                        value="e900"><span data-uid="font_e900" class="avia-font-code">e900</span><span
+                        class="avia-font-description">stumbleupon</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e901" class="copy-value"
+                        value="e901"><span data-uid="font_e901" class="avia-font-code">e901</span><span
+                        class="avia-font-description">stumbleupon</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e902" class="copy-value"
+                        value="e902"><span data-uid="font_e902" class="avia-font-code">e902</span><span
+                        class="avia-font-description">lastfm</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e903" class="copy-value"
+                        value="e903"><span data-uid="font_e903" class="avia-font-code">e903</span><span
+                        class="avia-font-description">lastfm</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e904" class="copy-value"
+                        value="e904"><span data-uid="font_e904" class="avia-font-code">e904</span><span
+                        class="avia-font-description">rdio</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e905" class="copy-value"
+                        value="e905"><span data-uid="font_e905" class="avia-font-code">e905</span><span
+                        class="avia-font-description">rdio</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e906" class="copy-value"
+                        value="e906"><span data-uid="font_e906" class="avia-font-code">e906</span><span
+                        class="avia-font-description">spotify</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e907" class="copy-value"
+                        value="e907"><span data-uid="font_e907" class="avia-font-code">e907</span><span
+                        class="avia-font-description">spotify</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e908" class="copy-value"
+                        value="e908"><span data-uid="font_e908" class="avia-font-code">e908</span><span
+                        class="avia-font-description">qq</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e909" class="copy-value"
+                        value="e909"><span data-uid="font_e909" class="avia-font-code">e909</span><span
+                        class="avia-font-description">instagram</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e90a" class="copy-value"
+                        value="e90a"><span data-uid="font_e90a" class="avia-font-code">e90a</span><span
+                        class="avia-font-description">dropbox</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e90b" class="copy-value"
+                        value="e90b"><span data-uid="font_e90b" class="avia-font-code">e90b</span><span
+                        class="avia-font-description">evernote</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e90c" class="copy-value"
+                        value="e90c"><span data-uid="font_e90c" class="avia-font-code">e90c</span><span
+                        class="avia-font-description">flattr</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e90d" class="copy-value"
+                        value="e90d"><span data-uid="font_e90d" class="avia-font-code">e90d</span><span
+                        class="avia-font-description">skype</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e90e" class="copy-value"
+                        value="e90e"><span data-uid="font_e90e" class="avia-font-code">e90e</span><span
+                        class="avia-font-description">skype</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e90f" class="copy-value"
+                        value="e90f"><span data-uid="font_e90f" class="avia-font-code">e90f</span><span
+                        class="avia-font-description">renren</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e910" class="copy-value"
+                        value="e910"><span data-uid="font_e910" class="avia-font-code">e910</span><span
+                        class="avia-font-description">weibo</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e911" class="copy-value"
+                        value="e911"><span data-uid="font_e911" class="avia-font-code">e911</span><span
+                        class="avia-font-description">paypal</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e912" class="copy-value"
+                        value="e912"><span data-uid="font_e912" class="avia-font-code">e912</span><span
+                        class="avia-font-description">picasa</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e913" class="copy-value"
+                        value="e913"><span data-uid="font_e913" class="avia-font-code">e913</span><span
+                        class="avia-font-description">soundcloud</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e914" class="copy-value"
+                        value="e914"><span data-uid="font_e914" class="avia-font-code">e914</span><span
+                        class="avia-font-description">mixi</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e915" class="copy-value"
+                        value="e915"><span data-uid="font_e915" class="avia-font-code">e915</span><span
+                        class="avia-font-description">behance</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e916" class="copy-value"
+                        value="e916"><span data-uid="font_e916" class="avia-font-code">e916</span><span
+                        class="avia-font-description">google circles</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e917" class="copy-value"
+                        value="e917"><span data-uid="font_e917" class="avia-font-code">e917</span><span
+                        class="avia-font-description">vkontakte</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e918" class="copy-value"
+                        value="e918"><span data-uid="font_e918" class="avia-font-code">e918</span><span
+                        class="avia-font-description">smashing</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e91a" class="copy-value"
+                        value="e91a"><span data-uid="font_e91a" class="avia-font-code">e91a</span><span
+                        class="avia-font-description">box square</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e919" class="copy-value"
+                        value="e919"><span data-uid="font_e919" class="avia-font-code">e919</span><span
+                        class="avia-font-description">sweden flag stack list</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e91b" class="copy-value"
+                        value="e91b"><span data-uid="font_e91b" class="avia-font-code">e91b</span><span
+                        class="avia-font-description">bd</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e80e" class="copy-value"
+                        value="e80e"><span data-uid="font_e80e" class="avia-font-code">e80e</span><span
+                        class="avia-font-description">photo gallery</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e8b1" class="copy-value"
+                        value="e8b1"><span data-uid="font_e8b1" class="avia-font-code">e8b1</span><span
+                        class="avia-font-description">globe online earth website</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e8b8" class="copy-value"
+                        value="e8b8"><span data-uid="font_e8b8" class="avia-font-code">e8b8</span><span
+                        class="avia-font-description">leaf green recycle</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e8c9" class="copy-value"
+                        value="e8c9"><span data-uid="font_e8c9" class="avia-font-code">e8c9</span><span
+                        class="avia-font-description">graduation student university</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e85e" class="copy-value"
+                        value="e85e"><span data-uid="font_e85e" class="avia-font-code">e85e</span><span
+                        class="avia-font-description">podcast mic</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e8a4" class="copy-value"
+                        value="e8a4"><span data-uid="font_e8a4" class="avia-font-code">e8a4</span><span
+                        class="avia-font-description">color pallet</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e8cb" class="copy-value"
+                        value="e8cb"><span data-uid="font_e8cb" class="avia-font-code">e8cb</span><span
+                        class="avia-font-description">coupon</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e80d" class="copy-value"
+                        value="e80d"><span data-uid="font_e80d" class="avia-font-code">e80d</span><span
+                        class="avia-font-description">video play embed</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e8a3" class="copy-value"
+                        value="e8a3"><span data-uid="font_e8a3" class="avia-font-code">e8a3</span><span
+                        class="avia-font-description">target crosshair</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e802" class="copy-value"
+                        value="e802"><span data-uid="font_e802" class="avia-font-code">e802</span><span
+                        class="avia-font-description">music play sound</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e8a8" class="copy-value"
+                        value="e8a8"><span data-uid="font_e8a8" class="avia-font-code">e8a8</span><span
+                        class="avia-font-description">champion winner cup top best</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e82b" class="copy-value"
+                        value="e82b"><span data-uid="font_e82b" class="avia-font-code">e82b</span><span
+                        class="avia-font-description">thumbs-up like hand</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e82c" class="copy-value"
+                        value="e82c"><span data-uid="font_e82c" class="avia-font-code">e82c</span><span
+                        class="avia-font-description">thumbs-down dislike hand</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e85a" class="copy-value"
+                        value="e85a"><span data-uid="font_e85a" class="avia-font-code">e85a</span><span
+                        class="avia-font-description">cart shopping bag bin</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e80a" class="copy-value"
+                        value="e80a"><span data-uid="font_e80a" class="avia-font-code">e80a</span><span
+                        class="avia-font-description">profile people person man user</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e80b" class="copy-value"
+                        value="e80b"><span data-uid="font_e80b" class="avia-font-code">e80b</span><span
+                        class="avia-font-description">profile people person men user</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e864" class="copy-value"
+                        value="e864"><span data-uid="font_e864" class="avia-font-code">e864</span><span
+                        class="avia-font-description">bulb tip innovative clue</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e83f" class="copy-value"
+                        value="e83f"><span data-uid="font_e83f" class="avia-font-code">e83f</span><span
+                        class="avia-font-description">alert warning disclaimer</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e8cc" class="copy-value"
+                        value="e8cc"><span data-uid="font_e8cc" class="avia-font-code">e8cc</span><span
+                        class="avia-font-description">water drops wet rain</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e8cd" class="copy-value"
+                        value="e8cd"><span data-uid="font_e8cd" class="avia-font-code">e8cd</span><span
+                        class="avia-font-description">water drops wet oil</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e8cf" class="copy-value"
+                        value="e8cf"><span data-uid="font_e8cf" class="avia-font-code">e8cf</span><span
+                        class="avia-font-description">card debit credit atm money</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e8ab" class="copy-value"
+                        value="e8ab"><span data-uid="font_e8ab" class="avia-font-code">e8ab</span><span
+                        class="avia-font-description">monitor web desktop pc cctv</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e8bb" class="copy-value"
+                        value="e8bb"><span data-uid="font_e8bb" class="avia-font-code">e8bb</span><span
+                        class="avia-font-description">portfolio carrer job bag briefcase</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e8d0" class="copy-value"
+                        value="e8d0"><span data-uid="font_e8d0" class="avia-font-code">e8d0</span><span
+                        class="avia-font-description">save floppy disk</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e8ae" class="copy-value"
+                        value="e8ae"><span data-uid="font_e8ae" class="avia-font-code">e8ae</span><span
+                        class="avia-font-description">cd circle disk</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e850" class="copy-value"
+                        value="e850"><span data-uid="font_e850" class="avia-font-code">e850</span><span
+                        class="avia-font-description">folder files</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e84b" class="copy-value"
+                        value="e84b"><span data-uid="font_e84b" class="avia-font-code">e84b</span><span
+                        class="avia-font-description">file paper doc</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e85b" class="copy-value"
+                        value="e85b"><span data-uid="font_e85b" class="avia-font-code">e85b</span><span
+                        class="avia-font-description">calender battery history event</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e8c5" class="copy-value"
+                        value="e8c5"><span data-uid="font_e8c5" class="avia-font-code">e8c5</span><span
+                        class="avia-font-description">stat chart line</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e8c6" class="copy-value"
+                        value="e8c6"><span data-uid="font_e8c6" class="avia-font-code">e8c6</span><span
+                        class="avia-font-description">network bar chart development</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e8d1" class="copy-value"
+                        value="e8d1"><span data-uid="font_e8d1" class="avia-font-code">e8d1</span><span
+                        class="avia-font-description">clipboard paste</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e823" class="copy-value"
+                        value="e823"><span data-uid="font_e823" class="avia-font-code">e823</span><span
+                        class="avia-font-description">attachment clip</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e829" class="copy-value"
+                        value="e829"><span data-uid="font_e829" class="avia-font-code">e829</span><span
+                        class="avia-font-description">bookmark</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e84f" class="copy-value"
+                        value="e84f"><span data-uid="font_e84f" class="avia-font-code">e84f</span><span
+                        class="avia-font-description">book</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e84e" class="copy-value"
+                        value="e84e"><span data-uid="font_e84e" class="avia-font-code">e84e</span><span
+                        class="avia-font-description">book open</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e854" class="copy-value"
+                        value="e854"><span data-uid="font_e854" class="avia-font-code">e854</span><span
+                        class="avia-font-description">tel phone call</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e8d2" class="copy-value"
+                        value="e8d2"><span data-uid="font_e8d2" class="avia-font-code">e8d2</span><span
+                        class="avia-font-description">loudspeaker announcement megaphone</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e82e" class="copy-value"
+                        value="e82e"><span data-uid="font_e82e" class="avia-font-code">e82e</span><span
+                        class="avia-font-description">upload</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e82d" class="copy-value"
+                        value="e82d"><span data-uid="font_e82d" class="avia-font-code">e82d</span><span
+                        class="avia-font-description">download</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e852" class="copy-value"
+                        value="e852"><span data-uid="font_e852" class="avia-font-code">e852</span><span
+                        class="avia-font-description">box cabinet archive</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e84d" class="copy-value"
+                        value="e84d"><span data-uid="font_e84d" class="avia-font-code">e84d</span><span
+                        class="avia-font-description">news log blog</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e8ac" class="copy-value"
+                        value="e8ac"><span data-uid="font_e8ac" class="avia-font-code">e8ac</span><span
+                        class="avia-font-description">cell phone mobile tel call</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e8a7" class="copy-value"
+                        value="e8a7"><span data-uid="font_e8a7" class="avia-font-code">e8a7</span><span
+                        class="avia-font-description">wifi network connectivity</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e80f" class="copy-value"
+                        value="e80f"><span data-uid="font_e80f" class="avia-font-code">e80f</span><span
+                        class="avia-font-description">camera photo image</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e894" class="copy-value"
+                        value="e894"><span data-uid="font_e894" class="avia-font-code">e894</span><span
+                        class="avia-font-description">shuffle direction</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e895" class="copy-value"
+                        value="e895"><span data-uid="font_e895" class="avia-font-code">e895</span><span
+                        class="avia-font-description">loop recycle</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e891" class="copy-value"
+                        value="e891"><span data-uid="font_e891" class="avia-font-code">e891</span><span
+                        class="avia-font-description">recycle reload reset</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e865" class="copy-value"
+                        value="e865"><span data-uid="font_e865" class="avia-font-code">e865</span><span
+                        class="avia-font-description">brightness sun light</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e866" class="copy-value"
+                        value="e866"><span data-uid="font_e866" class="avia-font-code">e866</span><span
+                        class="avia-font-description">brightness sun light</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e85f" class="copy-value"
+                        value="e85f"><span data-uid="font_e85f" class="avia-font-code">e85f</span><span
+                        class="avia-font-description">mute sound</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e860" class="copy-value"
+                        value="e860"><span data-uid="font_e860" class="avia-font-code">e860</span><span
+                        class="avia-font-description">sound speaker</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e8a9" class="copy-value"
+                        value="e8a9"><span data-uid="font_e8a9" class="avia-font-code">e8a9</span><span
+                        class="avia-font-description">battery charge</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e803" class="copy-value"
+                        value="e803"><span data-uid="font_e803" class="avia-font-code">e803</span><span
+                        class="avia-font-description">search</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e8d7" class="copy-value"
+                        value="e8d7"><span data-uid="font_e8d7" class="avia-font-code">e8d7</span><span
+                        class="avia-font-description">key password</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e824" class="copy-value"
+                        value="e824"><span data-uid="font_e824" class="avia-font-code">e824</span><span
+                        class="avia-font-description">lock security</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e825" class="copy-value"
+                        value="e825"><span data-uid="font_e825" class="avia-font-code">e825</span><span
+                        class="avia-font-description">unlock</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e83d" class="copy-value"
+                        value="e83d"><span data-uid="font_e83d" class="avia-font-code">e83d</span><span
+                        class="avia-font-description">bell notification alarm</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e828" class="copy-value"
+                        value="e828"><span data-uid="font_e828" class="avia-font-code">e828</span><span
+                        class="avia-font-description">bookmark</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e822" class="copy-value"
+                        value="e822"><span data-uid="font_e822" class="avia-font-code">e822</span><span
+                        class="avia-font-description">link chain</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e820" class="copy-value"
+                        value="e820"><span data-uid="font_e820" class="avia-font-code">e820</span><span
+                        class="avia-font-description">back repeat</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e804" class="copy-value"
+                        value="e804"><span data-uid="font_e804" class="avia-font-code">e804</span><span
+                        class="avia-font-description">torch flashlight</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e8c7" class="copy-value"
+                        value="e8c7"><span data-uid="font_e8c7" class="avia-font-code">e8c7</span><span
+                        class="avia-font-description">graph chart</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e862" class="copy-value"
+                        value="e862"><span data-uid="font_e862" class="avia-font-code">e862</span><span
+                        class="avia-font-description">clock time</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e8dd" class="copy-value"
+                        value="e8dd"><span data-uid="font_e8dd" class="avia-font-code">e8dd</span><span
+                        class="avia-font-description">fast rocket</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e868" class="copy-value"
+                        value="e868"><span data-uid="font_e868" class="avia-font-code">e868</span><span
+                        class="avia-font-description">void stop</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e92b" class="copy-value"
+                        value="e92b"><span data-uid="font_e92b" class="avia-font-code">e92b</span><span
+                        class="avia-font-description">weibo</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e926" class="copy-value"
+                        value="e926"><span data-uid="font_e926" class="avia-font-code">e926</span><span
+                        class="avia-font-description">vk</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e927" class="copy-value"
+                        value="e927"><span data-uid="font_e927" class="avia-font-code">e927</span><span
+                        class="avia-font-description">reddit</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e928" class="copy-value"
+                        value="e928"><span data-uid="font_e928" class="avia-font-code">e928</span><span
+                        class="avia-font-description">ue928</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e92a" class="copy-value"
+                        value="e92a"><span data-uid="font_e92a" class="avia-font-code">e92a</span><span
+                        class="avia-font-description">digg</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_e929" class="copy-value"
+                        value="e929"><span data-uid="font_e929" class="avia-font-code">e929</span><span
+                        class="avia-font-description">tiles</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_f232" class="copy-value"
+                        value="f232"><span data-uid="font_f232" class="avia-font-code">f232</span><span
+                        class="avia-font-description">whatsapp</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_f16d" class="copy-value"
+                        value="f16d"><span data-uid="font_f16d" class="avia-font-code">f16d</span><span
+                        class="avia-font-description">instagram</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_f1e9" class="copy-value"
+                        value="f1e9"><span data-uid="font_f1e9" class="avia-font-code">f1e9</span><span
+                        class="avia-font-description">yelp</span></div>
+                <div class="enfold-font"><span class="avia-font-char"></span><input id="font_f16a" class="copy-value"
+                        value="f16a"><span data-uid="font_f16a" class="avia-font-code">f16a</span><span
+                        class="avia-font-description">youtube play video</span></div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <p class="footer-text">Devleoped by <a target="_blank" href="https://wolfdevs.com">WolfDevs</a> | <a target="_blank" href="https://github.com/wolfdevsllc/enfold-fonts">Github</a></p>
+        </div>
+    </footer>
+    <script>
+        function filter_enfold_fonts() {
+            var input, filter, table, tr, td, i, txtValue;
+            input = document.getElementById("enfold_fonts_search");
+            filter = input.value.toUpperCase();
+            table = document.getElementById("enfold_fonts_wrap");
+            tr = table.getElementsByClassName("enfold-font");
+            for (i = 0; i < tr.length; i++) {
+                td = tr[i].getElementsByClassName("avia-font-description")[0];
+                if (td) {
+                txtValue = td.textContent || td.innerText;
+                if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                    tr[i].style.display = "";
+                } else {
+                    tr[i].style.display = "none";
+                }
+                }
+            }
+        }
+
+        function copyIcon(id) {
+            var copyText = document.getElementById(id);
+            copyText.select();
+            copyText.setSelectionRange(0, 99999);
+            navigator.clipboard.writeText(copyText.value);
+            // flash color to the parent td
+            var parent = copyText.parentElement;
+            parent.style.backgroundColor = "#4caf50";
+            parent.style.color = "#ffffff";
+            // set back to transparent background and black text after 1 second
+            setTimeout(function() {
+                parent.style.backgroundColor = "transparent";
+                parent.style.color = "#777777";
+            }, 1000);
+        }
+
+        document.addEventListener('click', function(e) {
+            if (e.target && e.target.classList.contains('avia-font-code')) {
+                copyIcon(e.target.dataset.uid);
+            }
+        });
+    </script>
+</body>
+</html>
